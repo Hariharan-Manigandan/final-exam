@@ -1,0 +1,48 @@
+.main{
+    width:100%;
+    background-color: #303030;
+    height: 200px;
+    padding:30px
+ 
+}
+.col1{
+    width:25%;
+    height: 200px;
+    float:left;
+   
+}
+
+li{
+    color:white;
+    list-style-type: none;
+    padding-top: 10px;
+}
+li a {
+    color:white;
+    text-decoration: none;
+    
+}
+.col2 ul li{
+    display: inline-block;
+}
+a:hover{
+    border-bottom: 1px solid white;
+}
+.submain{
+    width:100%;
+    background-color: black;
+    height: 30px;
+    padding:30px
+
+}
+.submain ul li{
+    display: inline-block;
+    padding-left: 30px;
+    margin-top: -70px;
+}
+.clr{
+    clear:both;
+}
+.img1{
+    margin-top: 50px;
+}

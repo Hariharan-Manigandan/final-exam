@@ -1,0 +1,51 @@
+<div class="main">
+
+<div class="main1">
+        <div class="sub1">
+        from:   <select>
+                    <option>chennai</option>
+                    <option>bangalore</option>
+                    <option>kerala</option>
+                    <option>Trivandrum</option>
+                    <option>Hyderabad</option>
+
+                </select>
+      
+      
+        To:      <select>
+                    <option>chennai</option>
+                    <option>bangalore</option>
+                    <option>kerala</option>
+                    <option>Trivandrum</option>
+                    <option>Hyderabad</option>
+
+                </select>
+
+
+        Total:<input id="tot" type="text" value="50" readonly>
+        booked:<input type="text" value={{one}}>
+        available:<input type="text" value={{two}}>
+        <button (click)="booking()">Book</button>
+    </div>
+
+    <div class="sub1-2">
+        
+        <input  type="button" class="input" [style.background-color]="col" value="" #inp (click)="abc($event)">
+        <input  type="button" class="input" [style.background-color]="col" value="" #inp (click)="abc($event)">
+        <input type="button" class="input" [style.background-color]="col" value="" #inp (click)="abc($event)">
+        <input type="button" class="input" [style.background-color]="col" value="" #inp (click)="abc($event)">
+        <input type="button" class="input" [style.background-color]="col" value="" #inp (click)="abc($event)">
+       
+    </div>
+</div>
+    <div class="main2">
+        <div class="sub2">
+            <label>Name</label><input><br><br>
+            <label>Age</label><input><br><br>
+            <label>Phone Number</label><input><br><br>
+            <label>Payment</label><input value="{{payment}}"><br><br>
+            <label>Date</label><input value="{{date | date :'dd/MM/yyyy'}}" readonly><br><br>
+        </div>
+            
+    </div>
+</div>
